@@ -14,7 +14,7 @@ hostname="CIINFO"
 i=0
 for arguments in "$@"
 do
-    [ ${array[key]} ] && message "$message $defined[$i]: $arguments"
+    [ ${array[key]} ] && message "$message $defined[$i]: $arguments\n"
     i=$((i + 1))
 done
 
